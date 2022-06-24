@@ -13,3 +13,5 @@ publish:
 package-install: #установка пакета из ос
 	python3 -m pip install --user dist/*.whl
 
+lint: #запуск flake8
+	poetry run flake8 brain_games
