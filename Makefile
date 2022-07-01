@@ -4,6 +4,9 @@ install: #установка
 brain-games: #запуск brain-games
 	poetry run brain-games
 
+brain-even: #запуск brain-even
+	poetry run brain-even
+
 build: #Сборка дистрибутива
 	poetry build
 
