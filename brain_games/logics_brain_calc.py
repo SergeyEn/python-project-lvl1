@@ -11,7 +11,7 @@ def calc_logic():
     oper = '+-*'
     result = 0
 
-    for count in range(3):
+    while count < 3:
         random_num1 = randint(1, 100)
         random_num2 = randint(1, 100)
         random_oper = choice(oper)
@@ -38,7 +38,9 @@ def calc_logic():
             else:
                 print(f"{answer} is wrong answer ;(. Correct answer was '{result}'")
                 break
-        print(count)
 
-
+        count += 1
+    if count == 3:
+        print(f'Congratulations, {user_name}!')
+        
 calc_logic()
