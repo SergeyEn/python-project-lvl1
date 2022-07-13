@@ -42,5 +42,4 @@ def calc_logic():
         count += 1
     if count == 3:
         print(f'Congratulations, {user_name}!')
-        
-calc_logic()
+
