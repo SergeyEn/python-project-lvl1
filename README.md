@@ -3,3 +3,6 @@
 
 ###Asciinema rec:
 https://asciinema.org/a/HT62aOj3S2wLfPaKhmJg6LGpU
+
+###Asciinema rec:
+https://asciinema.org/a/COuDrnpqQc1ZT4F3tVXxq0pdN 
