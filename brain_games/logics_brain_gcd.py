@@ -6,7 +6,7 @@ def search_gcd():
     print('Welcome to the Brain Games!')
     user_name = prompt.string('May I have your name? ')
     print(f'Hello, {user_name}!')
-    print('Answer "yes" if the number is even, otherwise answer "no".')
+    print('Find the greatest common divisor of given numbers.')
     count = 0
     gcd_result = 0
 
@@ -31,5 +31,5 @@ def search_gcd():
             break
 
         count += 1
-
-search_gcd()
+    if count == 3:
+        print(f'Congratulations, {user_name}!')
