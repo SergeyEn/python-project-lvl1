@@ -8,4 +8,7 @@ https://asciinema.org/a/HT62aOj3S2wLfPaKhmJg6LGpU
 https://asciinema.org/a/COuDrnpqQc1ZT4F3tVXxq0pdN
 
 ###Asciinema rec brain-gcd :
-https://asciinema.org/a/TEnjEr0oQXniwJXdGMOjfU8XT 
+https://asciinema.org/a/TEnjEr0oQXniwJXdGMOjfU8XT
+
+###Asciinema rec brain-progression :
+https://asciinema.org/a/9wYjKsaV8yIhOTiIDFuJjTFrt  
