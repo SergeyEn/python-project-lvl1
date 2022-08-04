@@ -32,12 +32,3 @@ def log_prime():
 
     if count == 3:
             print(f'Congratulations, {user_name}!')
-
-
-
-
-    
-         
-
-
-log_prime()
