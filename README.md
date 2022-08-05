@@ -2,7 +2,7 @@
 [![Actions Status](https://github.com/SergeyEn/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/SergeyEn/python-project-lvl1/actions)
 
 ###Asciinema rec brain-even:
-https://asciinema.org/a/HT62aOj3S2wLfPaKhmJg6LGpU
+<a href="https://asciinema.org/a/HT62aOj3S2wLfPaKhmJg6LGpU" target="_blank"><img src="https://asciinema.org/a/HT62aOj3S2wLfPaKhmJg6LGpU.svg" /></a>
 
 ###Asciinema rec brain-calc:
 https://asciinema.org/a/COuDrnpqQc1ZT4F3tVXxq0pdN
