@@ -21,7 +21,7 @@ def calc_logic():
             result = random_num1 + random_num2
             if int(answer) == result:
                 print('Correct!')
-            else: 
+            else:
                 print(f"{answer} is wrong answer ;(. Correct answer was '{result}'")
                 break
         if random_oper == '-':
@@ -42,4 +42,3 @@ def calc_logic():
         count += 1
     if count == 3:
         print(f'Congratulations, {user_name}!')
-

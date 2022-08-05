@@ -22,7 +22,8 @@ def search_gcd():
                 random_num2 = random_num2 % random_num1
         if random_num1 != 0:
             gcd_result = random_num1
-        else: gcd_result = random_num2
+        else:
+            gcd_result = random_num2
         if gcd_result == int(answer):
             print('Correct!')
         else:

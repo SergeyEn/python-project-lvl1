@@ -1,5 +1,5 @@
 import prompt
-from random import randint, choice
+from random import randint
 
 
 def log_progression():
@@ -20,7 +20,7 @@ def log_progression():
         result = count_list[rnd_index]
         count_list[rnd_index] = '..'
         new_list = str(count_list).replace("'", '')
-        print (f"Question: {str(new_list).replace(',', '')[1:-1]}")
+        print(f"Question: {str(new_list).replace(',', '')[1:-1]}")
         answer = input('Your answer: ')
         if int(answer) == result:
             print('Correct!')
@@ -30,6 +30,6 @@ def log_progression():
             break
 
         count += 1
-    
+
     if count == 3:
         print(f'Congratulations, {user_name}!')
