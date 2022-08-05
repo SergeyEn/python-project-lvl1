@@ -11,4 +11,7 @@ https://asciinema.org/a/COuDrnpqQc1ZT4F3tVXxq0pdN
 https://asciinema.org/a/TEnjEr0oQXniwJXdGMOjfU8XT
 
 ###Asciinema rec brain-progression :
-https://asciinema.org/a/9wYjKsaV8yIhOTiIDFuJjTFrt  
+https://asciinema.org/a/9wYjKsaV8yIhOTiIDFuJjTFrt
+
+###Asciinema rec brain-prime :
+https://asciinema.org/a/bvHYEpL5fG4Wnv4maPG18mHwr  
