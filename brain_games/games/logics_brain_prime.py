@@ -1,7 +1,6 @@
 import prompt
 from random import randint
 
-
 def log_prime():
     print('Welcome to the Brain Games!')
     user_name = prompt.string('May I have your name? ')
@@ -34,3 +33,6 @@ def log_prime():
 
     if count == 3:
         print(f'Congratulations, {user_name}!')
+
+
+log_prime()

@@ -2,6 +2,7 @@ import prompt
 from random import randint
 
 
+
 def log_progression():
     print('Welcome to the Brain Games!')
     user_name = prompt.string('May I have your name? ')

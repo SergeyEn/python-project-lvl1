@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from brain_games.logics_brain_progression import log_progression
+from brain_games.games.logics_brain_progression import log_progression
 
 
 def main():

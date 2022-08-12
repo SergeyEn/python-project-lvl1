@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from brain_games.logics_brain_even import parity_check
+from brain_games.games.logics_brain_even import parity_check
 
 
 def main():

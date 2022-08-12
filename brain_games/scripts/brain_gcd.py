@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from brain_games.logics_brain_gcd import search_gcd
+from brain_games.games.logics_brain_gcd import search_gcd
 
 
 def main():
