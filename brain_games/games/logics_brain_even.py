@@ -1,27 +1,25 @@
-import prompt
-from random import randint
+from general_logics import victory, welcome_prompt
+from general_logics import get_answer, random_num
 
+
+def get_even_num(num):
+    if num % 2 == 0:
+        return 'yes'
+    else:
+        return 'no'
 
 def parity_check():
-    print('Welcome to the Brain Games!')
-    user_name = prompt.string('May I have your name? ')
-    print(f'Hello, {user_name}!')
+    user_name = welcome_prompt()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     count = 0
 
     while count < 3:
-        random_number = randint(1, 100)
+        random_number = random_num()
         print(random_number)
         answer = input('Question: ')
-        if random_number % 2 == 0 and answer == 'yes':
-            print('Correct!')
-        elif random_number % 2 != 0 and answer == 'no':
-            print('Correct!')
-        else:
-            print("'yes' is wrong answer ;(. Correct answer was 'no'.")
-            print(f"Let's try again, {user_name}!")
+        get_answ = get_answer(answer, get_even_num(random_number), user_name)
+        if get_answ == False:
             break
-
         count += 1
-    if count == 3:
-        print(f'Congratulations, {user_name}!')
+    victory(count, user_name)
+parity_check()
