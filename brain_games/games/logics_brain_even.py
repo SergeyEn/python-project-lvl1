@@ -22,4 +22,3 @@ def parity_check():
             break
         count += 1
     victory(count, user_name)
-parity_check()
