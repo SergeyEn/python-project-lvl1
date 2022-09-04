@@ -3,15 +3,12 @@ from general_logics import get_answer, victory
 
 
 def get_gcd(num1, num2):
-    while num1 != 0 and num2 != 0:
+    while num1 != num2:
         if num1 > num2:
-            num1 = num1 % num2
+            num1 = num1 - num2
         else:
-            num2 = num2 % num1
-    if num1 != 0:
-        return num1
-    else:
-        return num2
+            num2 = num2 - num1
+    return num1
 
 def search_gcd():
     name = welcome_prompt()
