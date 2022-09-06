@@ -12,6 +12,7 @@ def get_calc(num1, num2, random_operation):
     else:
         return num1 * num2
 
+
 def calc_logic():
     name = welcome_prompt()
     print("What is the result of the expression?")

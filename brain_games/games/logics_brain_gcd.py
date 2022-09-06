@@ -10,6 +10,7 @@ def get_gcd(num1, num2):
             num2 = num2 - num1
     return num1
 
+
 def search_gcd():
     name = welcome_prompt()
     print('Find the greatest common divisor of given numbers.')

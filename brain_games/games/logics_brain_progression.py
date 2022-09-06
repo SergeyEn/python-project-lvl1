@@ -2,12 +2,14 @@ from general_logics import welcome_prompt, victory
 from general_logics import get_answer
 from random import randint
 
+
 def get_progression(start_num, long_list):
     list = []
     for count_pro in range(long_list):
         list.append(start_num)
         start_num += 2
     return list
+
 
 def log_progression():
     name  = welcome_prompt()

@@ -8,6 +8,7 @@ def get_even_num(num):
     else:
         return 'no'
 
+
 def parity_check():
     user_name = welcome_prompt()
     print('Answer "yes" if the number is even, otherwise answer "no".')

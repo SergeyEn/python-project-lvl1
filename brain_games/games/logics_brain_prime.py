@@ -9,11 +9,13 @@ def get_count_prime(num):
             count_prime += 1
     return count_prime
 
+
 def get_result(num_prime):
     if num_prime == 0:
         return 'yes'
     else:
         return 'no'
+
 
 def log_prime():
     name = welcome_prompt()
