@@ -1,4 +1,4 @@
-from general_logics import welcome_prompt, victory, get_answer
+from brain_games.games.general_logics import welcome_prompt, victory, get_answer
 from random import randint
 
 
