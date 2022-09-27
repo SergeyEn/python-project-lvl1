@@ -1,5 +1,5 @@
-from general_logics import welcome_prompt, victory
-from general_logics import get_answer
+from brain_games.games.general_logics import welcome_prompt, victory
+from brain_games.games.general_logics import get_answer
 from random import randint
 
 
