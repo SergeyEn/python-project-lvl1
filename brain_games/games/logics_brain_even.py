@@ -1,6 +1,5 @@
-from general_logics import victory, welcome_prompt
-from general_logics import get_answer, random_num
-
+from brain_games.games.general_logics import welcome_prompt, random_num
+from brain_games.games.general_logics import victory, get_answer
 
 def get_even_num(num):
     if num % 2 == 0:
