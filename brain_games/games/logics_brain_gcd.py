@@ -1,5 +1,5 @@
-from general_logics import welcome_prompt, random_num
-from general_logics import get_answer, victory
+from brain_games.games.general_logics import welcome_prompt, random_num
+from brain_games.games.general_logics import get_answer, victory
 
 
 def get_gcd(num1, num2):

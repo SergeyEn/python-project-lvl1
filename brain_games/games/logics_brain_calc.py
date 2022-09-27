@@ -1,5 +1,5 @@
-from general_logics import victory, get_answer
-from general_logics import welcome_prompt, random_num
+from brain_games.games.general_logics import victory, get_answer
+from brain_games.games.general_logics import welcome_prompt, random_num
 from random import choice
 
 
