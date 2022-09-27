@@ -23,7 +23,7 @@ def search_gcd():
         answer = int(input('Your answer: '))
         gcd_result = get_gcd(random_num1, random_num2)
         get_answ = get_answer(answer, gcd_result, name)
-        if get_answ == False:
+        if get_answ is False:
             break
         count += 1
     victory(count, name)

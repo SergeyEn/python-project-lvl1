@@ -29,7 +29,7 @@ def log_prime():
         answer = input("Your answer: ")
         result = get_result(count_prime)
         get_answ = get_answer(answer, result, name)
-        if get_answ == False:
+        if get_answ is False:
             break
         count += 1
     victory(count, name)

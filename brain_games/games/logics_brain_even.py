@@ -1,6 +1,7 @@
 from brain_games.games.general_logics import welcome_prompt, random_num
 from brain_games.games.general_logics import victory, get_answer
 
+
 def get_even_num(num):
     if num % 2 == 0:
         return 'yes'
@@ -18,7 +19,7 @@ def parity_check():
         print(random_number)
         answer = input('Question: ')
         get_answ = get_answer(answer, get_even_num(random_number), user_name)
-        if get_answ == False:
+        if get_answ is False:
             break
         count += 1
     victory(count, user_name)

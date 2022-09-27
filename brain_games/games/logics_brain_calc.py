@@ -4,7 +4,6 @@ from random import choice
 
 
 def get_calc(num1, num2, random_operation):
-    operation = '+-*'
     if random_operation == '+':
         return num1 + num2
     elif random_operation == '-':
@@ -27,7 +26,7 @@ def calc_logic():
         answer = int(input('Your answer: '))
         result = get_calc(random_num1, random_num2, random_oper)
         get_answ = get_answer(answer, result, name)
-        if get_answ == False:
+        if get_answ is False:
             break
         count += 1
     victory(count, name)

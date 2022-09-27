@@ -12,7 +12,7 @@ def get_progression(start_num, long_list):
 
 
 def log_progression():
-    name  = welcome_prompt()
+    name = welcome_prompt()
     print('What number is missing in the progression?')
     count = 0
     while count < 3:
@@ -26,7 +26,7 @@ def log_progression():
         print(f"Question: {str(new_list).replace(',', '')[1:-1]}")
         answer = int(input('Your answer: '))
         get_answ = get_answer(answer, result, name)
-        if get_answ == False:
+        if get_answ is False:
             break
         count += 1
     victory(count, name)
