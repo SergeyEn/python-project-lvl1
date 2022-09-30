@@ -23,6 +23,7 @@ def get_answer(answer, question, name):
     if question == answer:
         print('Correct!')
     else:
-        print(f"'{answer}' is wrong answer ;(. Correct answer was '{question}'.")
+        print(f"'{answer}' is wrong answer ;(."
+              f" Correct answer was '{question}'.")
         print(f"Let's try again, {name}!")
         return False
