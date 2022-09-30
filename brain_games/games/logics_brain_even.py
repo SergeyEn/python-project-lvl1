@@ -16,8 +16,8 @@ def parity_check():
 
     while count < 3:
         random_number = random_num()
-        print(random_number)
-        answer = input('Question: ')
+        print(f'Question: {random_number}')
+        answer = input('Your answer: ')
         get_answ = get_answer(answer, get_even_num(random_number), user_name)
         if get_answ is False:
             break
