@@ -5,7 +5,7 @@ from random import randint
 def get_count_prime(num):
     count_prime = 0
     for i in range(2, num):
-        if(num % i == 0):
+        if( num % i == 0):
             count_prime += 1
     return count_prime
 
