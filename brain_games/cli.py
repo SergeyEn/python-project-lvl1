@@ -1,5 +1,6 @@
 import prompt
 import random
+from brain_games.greet_module import greet
 
 def par_check(number):
     return 'yes' if number % 2 == 0 else 'no'
@@ -20,6 +21,7 @@ def welcome_user():
     return name
 
 def parity_game():
+    greet()
     name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     count = 0
@@ -40,6 +42,7 @@ def parity_game():
 
 
 def calc_game():
+    greet()
     name = welcome_user()
     print('What is the result of the expression?')
     operation_list = ['+', '-', '*']
