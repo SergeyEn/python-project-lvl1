@@ -25,6 +25,10 @@ cd python-project-lvl1
 
 <!-- https://asciinema.org/a/VLASxADAiUTTTcXY -->
 
+## Реализация скрипта brain-calc
+
+<!-- https://asciinema.org/a/J2AYmQ0HQeZtsXS0 -->
+
 ---
 
 <details>
