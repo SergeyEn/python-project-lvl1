@@ -21,8 +21,9 @@ cd python-project-lvl1
 ```
 
 ## Использование
+## Реализация скрипта brain-even
 
-<!-- Добавьте примеры запуска и запись asciinema — именно это смотрит работодатель -->
+<!-- https://asciinema.org/a/VLASxADAiUTTTcXY -->
 
 ---
 
