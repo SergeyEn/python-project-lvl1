@@ -1,4 +1,4 @@
-from brain_games.cli import calc_game
+from brain_games.games.cli import calc_game
 
 
 

@@ -1,9 +1,6 @@
 import prompt
 import random
-from brain_games.greet_module import greet
-
-def par_check(number):
-    return 'yes' if number % 2 == 0 else 'no'
+from brain_games.games.greet_module import greet
 
 
 def calc(first_num, second_num, oper):
@@ -29,7 +26,7 @@ def parity_game():
     while count < 3:
         random_number = random.randint(1, 50)
         print(f'Question: {random_number}')
-        correct_answer = par_check(random_number)
+        correct_answer = 'yes' if random_number % 2 == 0 else 'no'
         user_answer = prompt.string('Your answer: ')
         if user_answer == correct_answer:
             print('Correct!')
@@ -53,9 +50,9 @@ def calc_game():
         second_number = random.randint(1, 50)
         operation = random.choice(operation_list)
         print(f'Question: {first_number} {operation} {second_number}')
-        user_answer = prompt.string('Your answer: ')
+        user_answer = prompt.integer('Your answer: ')
         result = calc(first_number, second_number, operation)
-        if int(user_answer) == result:
+        if user_answer == result:
             print('Correct!')
         else:
             print(f'{user_answer} is wrong answer ;(.\nCorrect answer was {result}.')
@@ -63,4 +60,3 @@ def calc_game():
         count += 1
         if count == 3:
             print(f'Congratulation, {name}!')
-
