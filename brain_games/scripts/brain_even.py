@@ -1,7 +1,5 @@
-from brain_games.games.cli import parity_game
+from brain_games.games.parity_game import parity_game
 
 
 def main():
     parity_game()
-
-
