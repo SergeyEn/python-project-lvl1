@@ -29,6 +29,18 @@ cd python-project-lvl1
 
 <!-- https://asciinema.org/a/J2AYmQ0HQeZtsXS0 -->
 
+## Реализация скрипта brain-gcd
+
+<!-- https://asciinema.org/a/lz2lRCGM4qdfe6ux -->
+
+## Реализация скрипта brain-progression
+
+<!-- https://asciinema.org/a/kxO0MSG7xSm9MBEA -->
+
+## Реализация скрипта brain-prime
+
+<!-- https://asciinema.org/a/1CUusl8AZXJUBykU -->
+
 ---
 
 <details>
