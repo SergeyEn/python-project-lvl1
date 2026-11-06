@@ -1,11 +1,4 @@
-import prompt
-
-
-def welcome_user():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
-    return name
+from brain_games.cli import welcome_user
 
 
 def engine(question, get_answer, get_result):
@@ -25,11 +18,12 @@ def engine(question, get_answer, get_result):
         else:
             print(
                 f'{user_answer} is wrong answer ;(.\n'
-                f'Correct answer was {result}.'
+                f'Correct answer was {result}.\n'
+                f"Let's try again, {name}!"
             )
             break
 
         count += 1
 
     if count == 3:
-        print(f'Congratulation, {name}!')
+        print(f'Congratulations, {name}!')
