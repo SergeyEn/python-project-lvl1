@@ -21,6 +21,12 @@ cd python-project-lvl1
 uv sync
 make build
 make package-install
+make brain-games
+make brain-even
+make brain-calc
+make brain-gcd
+make brain-prime
+make brain-progression
 ```
 
 ## Использование
