@@ -23,7 +23,7 @@ cd python-project-lvl1
 ## Использование
 ## Реализация скрипта brain-even
 
-<!-- https://asciinema.org/a/VLASxADAiUTTTcXY -->
+<script src="https://asciinema.org/a/VLASxADAiUTTTcXY.js" id="asciicast-VLASxADAiUTTTcXY" async="true"></script>
 
 ## Реализация скрипта brain-calc
 

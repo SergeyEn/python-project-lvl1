@@ -1,5 +1,7 @@
-from brain_games.games.gcd_game import gcd_game
+from brain_games.games.gcd_game import get_result_gcd
+from brain_games.engine import engine
+import prompt
 
 
 def main():
-    gcd_game()
+    engine('Find the greatest common divisor of given numbers.', prompt.integer, get_result_gcd)
