@@ -18,6 +18,9 @@
 ```bash
 git clone https://github.com/SergeyEn/python-project-lvl1.git
 cd python-project-lvl1
+uv sync
+make build
+make package-install
 ```
 
 ## Использование
@@ -27,19 +30,19 @@ cd python-project-lvl1
 
 ## Реализация скрипта brain-calc
 
-<!-- https://asciinema.org/a/J2AYmQ0HQeZtsXS0 -->
+[![asciicast](https://asciinema.org/a/J2AYmQ0HQeZtsXS0.svg)](https://asciinema.org/a/J2AYmQ0HQeZtsXS0)
 
 ## Реализация скрипта brain-gcd
 
-<!-- https://asciinema.org/a/lz2lRCGM4qdfe6ux -->
+[![asciicast](https://asciinema.org/a/lz2lRCGM4qdfe6ux.svg)](https://asciinema.org/a/lz2lRCGM4qdfe6ux)
 
 ## Реализация скрипта brain-progression
 
-<!-- https://asciinema.org/a/kxO0MSG7xSm9MBEA -->
+[![asciicast](https://asciinema.org/a/kxO0MSG7xSm9MBEA.svg)](https://asciinema.org/a/kxO0MSG7xSm9MBEA)
 
 ## Реализация скрипта brain-prime
 
-<!-- https://asciinema.org/a/1CUusl8AZXJUBykU -->
+[![asciicast](https://asciinema.org/a/1CUusl8AZXJUBykU.svg)](https://asciinema.org/a/1CUusl8AZXJUBykU)
 
 ---
 
