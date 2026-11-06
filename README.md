@@ -32,7 +32,7 @@ make brain-progression
 ## Использование
 ## Реализация скрипта brain-even
 
-<a href="https://asciinema.org/a/VLASxADAiUTTTcXY" target="_blank"><img src="https://asciinema.org/a/VLASxADAiUTTTcXY.svg" /></a>
+[![asciicast](https://asciinema.org/a/VLASxADAiUTTTcXY.svg)](https://asciinema.org/a/VLASxADAiUTTTcXY)
 
 ## Реализация скрипта brain-calc
 
