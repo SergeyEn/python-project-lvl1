@@ -1,7 +1,8 @@
 from brain_games.games.progression_game import get_result_progression
 from brain_games.engine import engine
+from brain_games.rules_games import RULES_STRING
 import prompt
 
 
 def main():
-    engine('Answer "yes" if given number is prime. Otherwise answer "no".', prompt.string, get_result_progression)
+    engine(RULES_STRING, prompt.string, get_result_progression)
