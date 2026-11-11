@@ -5,4 +5,4 @@ import prompt
 
 
 def main():
-    engine(RULES_GCD, prompt.integer, get_result_gcd)
+    engine(RULES_GCD, prompt.string, get_result_gcd)

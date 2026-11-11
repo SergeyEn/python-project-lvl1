@@ -5,4 +5,4 @@ import prompt
 
 
 def main():
-    engine(RULES_STRING, prompt.string, get_result_progression)
+    engine(RULES_STRING, prompt.integer, get_result_progression)
