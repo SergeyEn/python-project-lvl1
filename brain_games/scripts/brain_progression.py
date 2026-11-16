@@ -1,8 +1,8 @@
 from brain_games.games.progression_game import get_result_progression
 from brain_games.engine import engine
-from brain_games.rules_games import RULES_STRING
+from brain_games.rules_games import RULES_PROGRESSION
 import prompt
 
 
 def main():
-    engine(RULES_STRING, prompt.integer, get_result_progression)
+    engine(RULES_PROGRESSION, prompt.integer, get_result_progression)
