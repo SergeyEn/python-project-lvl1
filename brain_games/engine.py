@@ -16,7 +16,7 @@ def engine(question, get_answer, get_result):
         if user_answer == result:
             print('Correct!')
         else:
-            print(f"{user_answer} is wrong answer ;(.\nCorrect answer was {result}.\n'Let's try again, {name}!")
+            print(f"{user_answer} is wrong answer ;(.\nCorrect answer was {result}.\nLet's try again, {name}!")
             break
 
         count += 1
