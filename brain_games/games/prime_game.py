@@ -12,9 +12,9 @@ def get_prime(n):
     return True
 
 
-def get_result_prime():
+def is_prime():
     random_number = random.randint(1, 105)
     question = f'{random_number}'
-    result = 'yes' if get_prime(random_number) is True else 'no'
+    result = 'yes' if get_prime(random_number) else 'no'
 
     return question, result
