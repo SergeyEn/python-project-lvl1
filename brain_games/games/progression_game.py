@@ -1,6 +1,8 @@
 import random
 
 
+DESCRIPTION = 'What number is missing in the progression?'
+
 def make_list():
     sum_element = random.randint(5, 10)
     start = random.randint(1, 50)
@@ -9,11 +11,11 @@ def make_list():
     return result_list
 
 
-def get_result_progression():
+def get_round():
     get_list = make_list()
     random_index = random.randint(0, len(get_list) - 1)
     result = get_list[random_index]
     get_list[random_index] = ".."
-    question = f'{" ".join(str(i) for i in get_list)}'
+    print(f'Question: {" ".join(str(i) for i in get_list)}')
         
-    return question, result
+    return str(result)

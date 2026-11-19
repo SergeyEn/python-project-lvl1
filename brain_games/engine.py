@@ -1,17 +1,16 @@
 from brain_games.cli import welcome_user
+import prompt
 
 
-def engine(question, get_answer, get_result):
+def engine(game):
     name = welcome_user()
-    print(question)
+    print(game.DESCRIPTION)
 
     count = 0
 
     while count < 3:
-        question_text, result = get_result()
-
-        print(f'Question: {question_text}')
-        user_answer = get_answer('Your answer: ')
+        result = game.get_round()
+        user_answer = prompt.string('Your answer: ')
 
         if user_answer == result:
             print('Correct!')

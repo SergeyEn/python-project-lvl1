@@ -1,9 +1,6 @@
-from brain_games.games.prime_game import is_prime
 from brain_games.engine import engine
-import prompt
+from brain_games.games import prime_game
 
-
-RULES_PRIME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def main():
-    engine(RULES_PRIME, prompt.string, is_prime)
+    engine(prime_game)
