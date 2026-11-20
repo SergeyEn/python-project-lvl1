@@ -18,4 +18,4 @@ def get_round():
     get_list[random_index] = ".."
     question = f'{" ".join(str(i) for i in get_list)}'
         
-    return str(result)
+    return question, str(result)
