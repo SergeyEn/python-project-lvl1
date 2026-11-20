@@ -17,7 +17,7 @@ def get_round():
     operation_list = random.choice(['+', '-', '*'])
     first_number = random.randint(1, 59)
     second_number = random.randint(1, 59)
-    print(f'Question: {first_number} {operation_list} {second_number}')
+    question = f'{first_number} {operation_list} {second_number}'
     result = get_calc(first_number, second_number, operation_list)
 
-    return str(result)
+    return question, str(result)

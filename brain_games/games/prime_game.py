@@ -16,7 +16,7 @@ def is_prime(n):
 
 def get_round():
     random_number = random.randint(1, 105)
-    print(f'Question: {random_number}')
+    question = f'{random_number}'
     result = 'yes' if is_prime(random_number) else 'no'
 
-    return result
+    return question, result

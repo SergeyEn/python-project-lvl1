@@ -9,7 +9,8 @@ def engine(game):
     count = 0
 
     while count < 3:
-        result = game.get_round()
+        question, result = game.get_round()
+        print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ')
 
         if user_answer == result:

@@ -16,6 +16,6 @@ def get_round():
     random_index = random.randint(0, len(get_list) - 1)
     result = get_list[random_index]
     get_list[random_index] = ".."
-    print(f'Question: {" ".join(str(i) for i in get_list)}')
+    question = f'{" ".join(str(i) for i in get_list)}'
         
     return str(result)

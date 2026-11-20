@@ -13,7 +13,6 @@ def get_round():
     first_number = random.randint(1, 100)
     second_number = random.randint(1, 100)
     question = f'{first_number} {second_number}'
-    print(f'Question: {first_number} {second_number}')
     result = get_gcd(first_number, second_number)
 
-    return str(result)
+    return question, str(result)
